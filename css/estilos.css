@@ -112,7 +112,36 @@ li:hover{
     width: 200px;
 }
 
-#pie{
-    max-width: 300px;
+#footer{
+    margin-top: 50px;
+    border-top: 1px solid gray;
+    height: 150px;
+}
+
+#footer .bloque_footer{
     display: flex;
+    flex-direction: row;
+    padding: 60px;
+}
+
+#footer .bloque_footer .texto1{
+    width: 20%;
+}
+
+#footer .bloque_footer .texto2{
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#footer .bloque_footer .img_footer{
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#footer .bloque_footer .img_footer img{
+    width: 50px;
+    height: 50px;
 }
